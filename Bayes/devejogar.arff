@@ -1,0 +1,23 @@
+@relation devejogar
+
+@attribute tempo {ensolarado, nublado, chuvoso}
+@attribute temperatura {quente, suave, frio}
+@attribute humidade {alta, naormal}
+@attribute ventando {nao, sim}
+@attribute jogar {sim, nao}
+
+@data
+ensolarado, quente, alta, nao, nao
+ensolarado,quente,alta,sim,nao
+nublado,quente,alta,nao,sim
+chuvoso,suave,alta,nao,sim
+chuvoso,frio,naormal,nao,sim
+chuvoso,frio,naormal,sim,nao
+nublado,frio,naormal,sim,sim
+ensolarado,suave,alta,nao,nao
+ensolarado,frio,naormal,nao,sim
+chuvoso,suave,naormal,nao,sim
+ensolarado,suave,naormal,sim,sim
+nublado,suave,alta,sim,sim
+nublado,quente,naormal,nao,sim
+chuvoso,suave,alta,sim,nao
